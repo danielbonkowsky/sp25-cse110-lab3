@@ -1,1 +1,13 @@
 Fill in the passphrases here.
+Q1 passcode: WongAvery
+Q2 passcode: iHateC++
+Q3 passcode: HTMLRules
+Q4 passcode: JavaScriptRocks
+Q5 passcode: ShraviBeatsReact
+Q6 passcode: ThisIsJSyay
+Q7 passcode: SofiaWasHere
+Q8 passcode: coolcoolcool3x
+Q9 passcode: 2020_sucked
+Q10 passcode: listenToPetalcore
+Q11 passcode: ElaineFirst
+Q12 passcode: iHeartWebDev
