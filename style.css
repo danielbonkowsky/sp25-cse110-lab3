@@ -26,7 +26,7 @@ nav {
     padding-left: 1em;
     padding-bottom: 1em;
 
-    border-width: 3px;
+    border-width: 3pt;
     border-style: dashed;
     border-color: red;
     border-radius: 30px;
@@ -35,8 +35,8 @@ nav {
 }
 
 .nav-link {
-    margin: 1em 1em 1em 1em;
-    padding: 1em 1em 1em 1em;
+    margin: 1vh 1vw 1vh 1vw;
+    padding: 1vh 1vw 1vh 1vw;
 }
 
 /* Add over/underline to chillers in the website */
