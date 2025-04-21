@@ -2,6 +2,10 @@
     --main-bg-color: color(srgb 0 0 255 / 0.5);
 }
 
+* {
+    font-family: "Funnel Sans", sans-serif;
+}
+
 details {
     color: rgb(255, 255, 255);
     background-color: var(--main-bg-color);
