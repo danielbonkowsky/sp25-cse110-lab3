@@ -22,10 +22,16 @@ nav {
     border-style: dashed;
     border-color: red;
     border-radius: 30px;
-    
+
+    text-align: center;
 }
 
 .nav-link {
     margin: 1em 1em 1em 1em;
     padding: 1em 1em 1em 1em;
+}
+
+/* Add over/underline to chillers in the website */
+.chiller {
+    text-decoration: underline overline #ff3028;
 }
