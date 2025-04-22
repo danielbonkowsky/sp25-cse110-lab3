@@ -1,24 +1,12 @@
 # Daily Standup Note Template
-## Sprint: {sprint name}
-## Date: {date}
-# {team member 1 name}
+## Sprint: Website Making
+## Date: April 22, 2025
+# Daniel Bonkowsky
 ## What did you work on yesterday?
-I worked on x, y, z, ...
+I worked on getting boilerplate CSS down and modifying the HTML structure so it could be styled.
 ## What are you going to work on today?
-Today, I'm making progress on a, b, c, ...
+Adding more complex CSS to make the website prettier.
 ## Are you facing any issues?
-I'm facing some issues with my code because ...
+I'm facing issues figuring out the proper way to use the `:has()` and other combinators
 ## Is there anyone on the team you need to schedule a meeting with?
-I need to talk to Jane about ...
-# {team member 2 name}
-## What did you work on yesterday?
-I worked on x, y, z, ...
-## What are you going to work on today?
-Today, I'm making progress on a, b, c, ...
-## Are you facing any issues?
-I'm facing some issues with my code because ...
-## Is there anyone on the team you need to schedule a meeting with?
-I need to talk to Jane about ...
-
-
-
+I should probably talk to someone with more CSS experience to figure out what I'm doing wrong and if my CSS is ugly
