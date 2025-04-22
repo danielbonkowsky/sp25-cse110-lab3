@@ -94,7 +94,7 @@ li.chiller {
 }
 
 /* secret !! */
-.hidden {
+.hidden, .hidden2 {
     display: none;
 }
 
