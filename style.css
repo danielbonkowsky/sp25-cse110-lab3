@@ -103,6 +103,21 @@ h1:has(+ audio) {
     text-decoration: green wavy underline;
 }
 
+/* Make the leaders attendance bold */
+ul.leaders > li {
+    font-weight: bold;
+}
+
+/* Purple underline for headers after paragraphs */
+p + h1 {
+    text-decoration: purple wavy underline
+}
+
+/* Make all h2s following div.hidden green */
+div.hidden ~ h2 {
+    color: green;
+}
+
 /* input items not in a flexbox or grid layout */
 .normal-input {
     text-align: center;
