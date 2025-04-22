@@ -20,17 +20,17 @@ details {
     color: rgb(255, 255, 255);
     background-color: var(--main-bg-color);
     border: 4mm ridge rgb(219, 60, 187);
-    margin: auto
-}
+    margin: auto;
 
-/* the details pane when it's being hovered */
-details:hover{
-    background-color: color(srgb 0 0 255 / 0.8);
-}
+    /* rules for when the details pane is hovered */
+    &:hover {
+        background-color: color(srgb 0 0 255 / 0.8);
+    }
 
-/* the details pane when it's being clicked on */
-details:active {
-    background-color: color(srgb 0 0 0 / 1);
+    /* rules for when the details pane is active */
+    &:active {
+        background-color: color(srgb 0 0 0 / 1);
+    }
 }
 
 /* Align form elements in a flexbox */
@@ -96,6 +96,11 @@ li.chiller {
 /* secret !! */
 .hidden, .hidden2 {
     display: none;
+}
+
+/* Style specifically for h1s before audio */
+h1:has(+ audio) {
+    text-decoration: green wavy underline;
 }
 
 /* input items not in a flexbox or grid layout */
