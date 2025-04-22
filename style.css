@@ -6,6 +6,12 @@
     font-family: "Funnel Sans", sans-serif;
 }
 
+@media only screen and (max-width: 1000px) {
+    body {
+        background-color: var(--main-bg-color);
+    }
+}
+
 details {
     color: rgb(255, 255, 255);
     background-color: var(--main-bg-color);
