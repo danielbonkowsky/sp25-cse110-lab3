@@ -13,6 +13,14 @@ details {
     margin: auto
 }
 
+details:hover{
+    background-color: color(srgb 0 0 255 / 0.8);
+}
+
+details:active {
+    background-color: color(srgb 0 0 0 / 1);
+}
+
 nav {
     background-color: var(--second-bg-color, color(srgb 0 255 0 / 0.5));
 
