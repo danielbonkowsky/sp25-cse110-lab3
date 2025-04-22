@@ -1,17 +1,21 @@
+/* set general background color */
 :root {
     --main-bg-color: color(srgb 0 0 255 / 0.5);
 }
 
+/* cool font */
 * {
     font-family: "Funnel Sans", sans-serif;
 }
 
+/* mobile users have to have a blue screen */
 @media only screen and (max-width: 1000px) {
     body {
         background-color: var(--main-bg-color);
     }
 }
 
+/* the details pane */
 details {
     color: rgb(255, 255, 255);
     background-color: var(--main-bg-color);
@@ -19,10 +23,12 @@ details {
     margin: auto
 }
 
+/* the details pane when it's being hovered */
 details:hover{
     background-color: color(srgb 0 0 255 / 0.8);
 }
 
+/* the details pane when it's being clicked on */
 details:active {
     background-color: color(srgb 0 0 0 / 1);
 }
@@ -43,6 +49,7 @@ details:active {
     justify-content: center;
 }
 
+/* nav bar */
 nav {
     background-color: var(--second-bg-color, color(srgb 0 255 0 / 0.5));
 
@@ -64,9 +71,15 @@ nav {
     text-align: center;
 }
 
+/* links in the nav bar */
 nav a {
     margin: 1vh 1vw 1vh 1vw;
     padding: 1vh 1vw 1vh 1vw;
+}
+
+/* italicized what is a fish because it's important */
+a[href="https://en.wikipedia.org/wiki/Fish"] {
+    font-style: italic;
 }
 
 /* Add over/underline to specific chillers in the website */
@@ -74,11 +87,13 @@ li.chiller {
     text-decoration: underline overline #ff3028;
 }
 
+/* the area where attendance is recorded */
 .attendance {
     border-width: 3pt;
     border-style: dotted;
 }
 
+/* secret !! */
 .hidden {
     display: none;
 }
@@ -90,6 +105,7 @@ li.chiller {
     margin: 1em;
 }
 
+/* main big fish image */
 img.logo {
     height: 515px;
     width: 871px;
@@ -99,6 +115,7 @@ img.logo {
     display: block;
 }
 
+/* sticky fish image on the top right of webpage */
 img.sticky-fish {
     width: 200px;
     height: 133px;
@@ -108,6 +125,7 @@ img.sticky-fish {
     top: 20px;
 }
 
+/* edit the position of the fish video */
 #fish-video {
     position: static;
 }
