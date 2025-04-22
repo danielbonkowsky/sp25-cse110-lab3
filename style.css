@@ -34,7 +34,7 @@ nav {
     text-align: center;
 }
 
-.nav-link {
+nav a {
     margin: 1vh 1vw 1vh 1vw;
     padding: 1vh 1vw 1vh 1vw;
 }
