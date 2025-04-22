@@ -52,8 +52,6 @@
             April 14, 14:57
         </details>
 
-        <hr />
-
         <div class="attendance">
             <h2>
                 Attendance
@@ -63,7 +61,7 @@
                 Leaders
             </h3>
             <ul>
-                <li><span class="chiller">Daniel Bonkowsky</span> ✅</li>
+                <li class="chiller">Daniel Bonkowsky ✅</li>
                 <li>Birdman ✅</li>
                 <li>Birdwoman ✅</li>
             </ul>
@@ -77,8 +75,6 @@
                 <li>Eagle child ✅</li>
             </ul>
         </div>
-
-        <hr />
 
         <section>
             <h2>
@@ -125,18 +121,26 @@
         <h1>FISH SOUND</h1>
         <audio controls src="static/Filet-O-Fish.mp3"></audio>
 
+        <div class="hidden">
+            <h1>Secret Hidden Text</h1>
+        </div>
+
         <h2>
             Did you enjoy reading those minutes?
         </h2>
         <form>
             <fieldset>
-                <input type="checkbox" id="yes_check">
-                <label for="yes_check">Yes</label><br />
 
-                <input type="radio" id="yes_rad">
-                <label for="yes_rad">Yes</label><br />
+                <div class="normal-input">
+                    <input type="checkbox" id="yes_check">
+                    <label for="yes_check">Yes</label>
 
-                <input type="text"><br />
+                    <input type="radio" id="yes_rad">
+                    <label for="yes_rad">Yes</label>
+
+                    <input type="text">
+                </div>
+                
 
                 <input type="date"><br />
                 

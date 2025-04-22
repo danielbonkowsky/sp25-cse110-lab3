@@ -39,7 +39,21 @@ nav a {
     padding: 1vh 1vw 1vh 1vw;
 }
 
-/* Add over/underline to chillers in the website */
-.chiller {
+/* Add over/underline to specific chillers in the website */
+li.chiller {
     text-decoration: underline overline #ff3028;
+}
+
+.attendance {
+    border-width: 3pt;
+    border-style: dotted;
+}
+
+.hidden {
+    display: none;
+}
+
+.normal-input {
+    display: block;
+    margin: 1em;
 }
